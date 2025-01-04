@@ -1,0 +1,4 @@
+#Browser=chrome
+Browser=chrommanager
+#Browser=msedge
+#Browser=ie
