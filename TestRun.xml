@@ -7,7 +7,6 @@
 
 	<test thread-count="5" name="Test">
 		<classes>
-			<!-- <class name="CreditNotes.TestCreditNotes"/>    -->
 			<class name="demo_qa.Login" />
 			<class name="demo_qa.Verify_Dashboard" />
 		</classes>
