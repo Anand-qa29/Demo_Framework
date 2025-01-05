@@ -16,7 +16,7 @@ public class login extends TestBase {
 		PageFactory.initElements(driver, this);
 		props = new Properties();
 		FileInputStream ip = new FileInputStream(
-				System.getProperty("user.dir") + "/src/main/java/Com/qa/config/properties/config");
+				System.getProperty("user.dir") + "/TestData/test");
 		props.load(ip);
 	}
 
@@ -54,32 +54,31 @@ public class login extends TestBase {
 		profilDropdown.click();
 		Logout.click();
 	}
-
 	public boolean isLoginPageHeadingDisplayed() {
 		return loginPageHeading.isDisplayed();
 	}
 
 	@FindBy(xpath = "//input[@name='username']")
-	private WebElement userNameFiled;
+	protected WebElement userNameFiled;
 
 	@FindBy(xpath = "//input[@name='password']")
-	private WebElement passwordFiled;
+	protected WebElement passwordFiled;
 
 	@FindBy(xpath = "//button[@type='submit']")
-	private WebElement loginButton;
+	protected WebElement loginButton;
 
 	@FindBy(xpath = "//h6[text()='Dashboard']")
-	private WebElement dashboardHeading;
+	protected WebElement dashboardHeading;
 
 	@FindBy(xpath = "//p[@class='oxd-text oxd-text--p oxd-alert-content-text']")
-	private WebElement errorMessage;
+	protected WebElement errorMessage;
 
 	@FindBy(xpath = "//span[@class='oxd-userdropdown-tab']")
-	private WebElement profilDropdown;
+	protected WebElement profilDropdown;
 
 	@FindBy(xpath = "//a[text()='Logout']")
-	private WebElement Logout;
+	protected WebElement Logout;
 
 	@FindBy(xpath = "//h5[text()='Login']")
-	private WebElement loginPageHeading;
+	protected WebElement loginPageHeading;
 }

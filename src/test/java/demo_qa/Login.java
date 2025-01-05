@@ -3,8 +3,6 @@ package demo_qa;
 import java.io.IOException;
 
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import Com.qa.base.TestBase;
@@ -14,12 +12,6 @@ public class Login extends TestBase {
 
 	public Login() throws IOException {
 		super();
-		// TODO Auto-generated constructor stub
-	}
-
-	@BeforeClass
-	public void openBrowser() throws IOException, InterruptedException {
-		initialization();
 	}
 
 	@Test(priority = 1)
@@ -44,11 +36,5 @@ public class Login extends TestBase {
 		Assert.assertTrue(lp.isLoginPageHeadingDisplayed(), "Login page is not Displayed");
 	}
 
-	@AfterClass
-	public void TearDown() throws InterruptedException {
-		Thread.sleep(4000);
-		driver.quit();
-		Thread.sleep(2000);
-	}
 
 }

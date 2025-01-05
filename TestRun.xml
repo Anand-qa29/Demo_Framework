@@ -3,13 +3,15 @@
 <suite name="Suite">
 	<listeners>
 		<listener class-name="Com.Extent.MyListeners" />
-	</listeners>	
-	
-  <test thread-count="5" name="Test">
-    <classes>
-   <!-- <class name="CreditNotes.TestCreditNotes"/>    -->   
-  <!--   <class name="demo_qa.Login"/>   -->   
-     <class name="demo_qa.Verify_Dashboard"/> 
-    </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+	</listeners>
+
+	<test thread-count="5" name="Test">
+		<classes>
+			<!-- <class name="CreditNotes.TestCreditNotes"/>    -->
+			<class name="demo_qa.Login" />
+			<class name="demo_qa.Verify_Dashboard" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

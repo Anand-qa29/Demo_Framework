@@ -1,4 +1,4 @@
-#Browser=chrome
-Browser=chrommanager
-#Browser=msedge
-#Browser=ie
+username = Admin
+password = admin123
+invalidusername = admin
+invalidpassword = admin1234

@@ -4,11 +4,150 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6adc525a-2589-4cd6-b2ff-5c0f099dd961" name="Changes" comment="" />
+    <list default="true" id="6adc525a-2589-4cd6-b2ff-5c0f099dd961" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/Verify_Login_with_Invalid_credentialJVBvuPxmDt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/Verify_Login_with_Invalid_credentialTQ7qd1NtXV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/Verify_Login_with_Invalid_credentialUvZDV7gXqE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/Verify_Login_with_Invalid_credentialfxCJy3JyrN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/Verify_Login_with_Invalid_credentialhUbKv5jdBc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/Verify_Logout2JZlGraQdU.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/Verify_Logout8TOIZ1qaL9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/Verify_LogoutQXF0hxxqWa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/Verify_LogoutcZavz11uTd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/Verify_Logouth4SQKhnQ6V.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/Verify_user_can_log_in_with_valid_credentialP6TlbiYgQx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/Verify_user_can_log_in_with_valid_credentialQKKaAvvLzT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/Verify_user_can_log_in_with_valid_credentialScVjkYZan0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/Verify_user_can_log_in_with_valid_credentialce5REwEjpu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/Verify_user_can_log_in_with_valid_credentialgeIwhOCY9Q.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/verify_Admin_Module_Heading1K9Ykj5dmg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/verify_Admin_Module_Heading7smglr9lC3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/verify_Admin_Module_Heading941JRJjrnr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/verify_Admin_Module_HeadingEThqsRxHgn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/verify_Admin_Module_HeadingEblqcTyNGo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/verify_Admin_Module_HeadingG1BsLUNCve.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/verify_Admin_Module_HeadingIomRD3gSxi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/verify_Admin_Module_HeadingLILhb0EfGl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/verify_Admin_Module_HeadingR2UNxLdHqq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/verify_Admin_Module_HeadingbIuFl0dUYg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/verify_Admin_Module_Headingbol8jdIlN0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/verify_Admin_Module_Headinge0N6t54nkR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/verify_Admin_Module_Headingeiqe2Xv10z.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/verify_Admin_Module_HeadingjJG9uguEN4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/verify_Admin_Module_HeadingoP92pTcZy8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/verify_Admin_Module_HeadingorG3TV66BU.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/verify_SidePanel_ListYD4jZT89GP.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Configuration/Config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/verify_Admin_Module_HeadingIqMzWKK3Fu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/verify_Admin_Module_HeadingJJVfahCN7e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/verify_Admin_Module_HeadinggH0jOIWmwg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/verify_Admin_Module_HeadinggMICzpWZa1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/verify_Admin_Module_HeadinguTWen4ZlV6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestData/test" beforeDir="false" afterPath="$PROJECT_DIR$/TestData/test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestRun.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestRun.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Com/Extent/ER.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Com/Extent/ER.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Com/Extent/MyListeners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Com/Extent/MyListeners.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Com/Utility/CompanyData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Com/Utility/DataFromCsvUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Com/Utility/ReadConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Com/qa/Resource/ExtentReporterNG.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Com/qa/base/BaseClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Com/qa/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Com/qa/base/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Com/qa/config/properties/config" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Com/qa/config/properties/config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Com/qa/pages/Dashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Com/qa/pages/Dashboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Com/qa/pages/login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Com/qa/pages/login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/demo_qa/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/demo_qa/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/demo_qa/Verify_Dashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/demo_qa/Verify_Dashboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Default suite/Default test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Default suite/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Failed suite [Failed suite [Suite]]/Test(failed)(failed).xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Failed suite [Failed suite [Suite]]/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Failed suite [Suite]/Test(failed).html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Failed suite [Suite]/Test(failed).xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Failed suite [Suite]/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Suite/Test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Suite/Test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Suite/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/jquery-3.6.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-demo_qa.Verify_Dashboard.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/Default test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Failed suite [Failed suite [Suite]]/Test(failed)(failed).properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Failed suite [Failed suite [Suite]]/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Failed suite [Failed suite [Suite]]/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Failed suite [Failed suite [Suite]]/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Failed suite [Failed suite [Suite]]/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Failed suite [Failed suite [Suite]]/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Failed suite [Failed suite [Suite]]/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Failed suite [Failed suite [Suite]]/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Failed suite [Failed suite [Suite]]/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Failed suite [Failed suite [Suite]]/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Failed suite [Failed suite [Suite]]/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Failed suite [Suite]/Test(failed).properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Failed suite [Suite]/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Failed suite [Suite]/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Failed suite [Suite]/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Failed suite [Suite]/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Failed suite [Suite]/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Failed suite [Suite]/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Failed suite [Suite]/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Failed suite [Suite]/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Failed suite [Suite]/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Failed suite [Suite]/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Suite/Test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Suite/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Suite/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Suite/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Suite/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Suite/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Suite/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Suite/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Suite/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Suite/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Suite/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-reports1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-reports2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng.css" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/Com/qa/base/TestBase.java" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -29,9 +168,46 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/mi pro/MIPro"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/anand_moontechnolabs/Desktop/Test Data/Automation Demo"
   }
 }]]></component>
+  <component name="RunManager" selected="TestNG.C:/Users/anand_moontechnolabs/Desktop/Automation Demo QA/Automation Demo/TestRun.xml">
+    <configuration name="C:/Users/anand_moontechnolabs/Desktop/Automation Demo QA/Automation Demo/TestRun.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MIPro" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestRun.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Login.Verify_Login_with_Invalid_credential" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MIPro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo_qa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demo_qa" />
+      <option name="MAIN_CLASS_NAME" value="demo_qa.Login" />
+      <option name="METHOD_NAME" value="Verify_Login_with_Invalid_credential" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Users/anand_moontechnolabs/Desktop/Automation Demo QA/Automation Demo/TestRun.xml" />
+        <item itemvalue="TestNG.Login.Verify_Login_with_Invalid_credential" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
