@@ -10,7 +10,5 @@
 			<class name="demo_qa.Login" />
 			<class name="demo_qa.Verify_Dashboard" />
 		</classes>
-	</test> <!--
-	Test -->
-</suite> <!--
-Suite -->
+	</test>
+</suite>

@@ -31,24 +31,24 @@ public class MyListeners extends TestBase implements ITestListener {
 	public void onTestStart(ITestResult result) {
 		String TestName = result.getName();
 		extentTest = extentreport.createTest(TestName);
-		extentTest.log(Status.INFO, " Started Test Case :- " + TestName);
+		extentTest.log(Status.INFO, "Started Test Case: " + TestName);
 	}
 
 	@Override
 	public void onTestSuccess(ITestResult result) {
 		String TestName = result.getName();
-		extentTest.log(Status.PASS, TestName + " Test Case succefully executed  ");
+		extentTest.log(Status.PASS, TestName + " Test Case successfully executed.");
 	}
 
 	@Override
 	public void onTestFailure(ITestResult result) {
 		String TestName = result.getName();
 		extentTest.log(Status.INFO, result.getThrowable());
-		extentTest.log(Status.FAIL, TestName + " Test Case is Failed");
+		extentTest.log(Status.FAIL, TestName + " Test Case Failed.");
 		try {
 			extentTest.addScreenCaptureFromPath(getScreenShotPath(TestName));
 		} catch (IOException e) {
-			e.printStackTrace();
+			extentTest.log(Status.INFO, "Error while capturing screenshot: " + e.getMessage());
 		}
 	}
 
@@ -56,19 +56,30 @@ public class MyListeners extends TestBase implements ITestListener {
 	public void onTestSkipped(ITestResult result) {
 		String TestName = result.getName();
 		extentTest.log(Status.INFO, result.getThrowable());
-		extentTest.log(Status.SKIP, TestName + " Test Skippted  ");
+		extentTest.log(Status.SKIP, TestName + " Test Skipped.");
 	}
 
 	@Override
 	public void onFinish(ITestContext context) {
-		System.out.println(" On Test Finished ");
+		System.out.println("On Test Finished.");
 		extentreport.flush();
-		String path = System.getProperty("user.dir") + "\\report\\index.html";
+
+		// Ensure the report directory exists
+		File reportDir = new File(System.getProperty("user.dir") + "/report");
+		if (!reportDir.exists()) {
+			if (reportDir.mkdirs()) {
+				System.out.println("Report directory created successfully.");
+			} else {
+				System.out.println("Failed to create report directory.");
+			}
+		}
+
+		// Open the report in the browser
+		String path = System.getProperty("user.dir") + "/report/index.html";
 		File URI = new File(path);
 		try {
 			Desktop.getDesktop().browse(URI.toURI());
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
