@@ -11,6 +11,7 @@ import Com.qa.base.TestBase;
 
 public class login extends TestBase {
 	public static Properties props;
+	TestUtil util =  new TestUtil(driver);
 
 	public login() throws IOException {
 		PageFactory.initElements(driver, this);
@@ -21,9 +22,9 @@ public class login extends TestBase {
 
 	public Dashboard successfulLogin() throws IOException {
 		log.info("User on Login page...");
-		TestUtil.sendKeys(userNameFiled, props.getProperty("username"), 20);
-		TestUtil.sendKeys(passwordFiled, props.getProperty("password"), 20);
-		TestUtil.click(loginButton, 20);
+		util.sendKeys(userNameFiled, props.getProperty("username"), 20);
+		util.sendKeys(passwordFiled, props.getProperty("password"), 20);
+		util.click(loginButton, 20);
 		return new Dashboard();
 	}
 
@@ -34,9 +35,9 @@ public class login extends TestBase {
 
 	public void InvalidLogin() {
 		log.info("User on Login page...");
-		TestUtil.sendKeys(userNameFiled, props.getProperty("invalidusername"), 20);
-		TestUtil.sendKeys(passwordFiled, props.getProperty("invalidpassword"), 20);
-		TestUtil.click(loginButton, 20);
+		util.sendKeys(userNameFiled, props.getProperty("invalidusername"), 20);
+		util.sendKeys(passwordFiled, props.getProperty("invalidpassword"), 20);
+		util.click(loginButton, 20);
 	}
 
 	public boolean isErrorMessageDisplayed() {
@@ -49,8 +50,8 @@ public class login extends TestBase {
 
 	public void Logout() {
 		log.info("User on Dashboard page...");
-		TestUtil.click(profilDropdown, 20);
-		TestUtil.click(Logout, 20);
+		util.click(profilDropdown, 20);
+		util.click(Logout, 20);
 	}
 
 	public boolean isLoginPageHeadingDisplayed() {

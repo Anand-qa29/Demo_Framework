@@ -5,17 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6adc525a-2589-4cd6-b2ff-5c0f099dd961" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Com/Extent/ER.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Com/Extent/ER.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Com/Extent/MyListeners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Com/Extent/MyListeners.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Com/Utility/TestUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Com/Utility/TestUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Com/qa/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Com/qa/base/TestBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Com/qa/pages/Dashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Com/qa/pages/Dashboard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Com/qa/pages/login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Com/qa/pages/login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/demo_qa/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/demo_qa/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/demo_qa/Verify_Dashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/demo_qa/Verify_Dashboard.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +93,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Login.Verify_Login_with_Invalid_credential" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Login" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNG" />
       <extension name="coverage">
         <pattern>
@@ -109,8 +103,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="demo_qa" />
       <option name="MAIN_CLASS_NAME" value="demo_qa.Login" />
-      <option name="METHOD_NAME" value="Verify_Login_with_Invalid_credential" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -137,16 +130,75 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Verify_Dashboard" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo_qa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demo_qa" />
+      <option name="MAIN_CLASS_NAME" value="demo_qa.Verify_Dashboard" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Verify_Dashboard.verify_Admin_Module_Heading" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo_qa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demo_qa" />
+      <option name="MAIN_CLASS_NAME" value="demo_qa.Verify_Dashboard" />
+      <option name="METHOD_NAME" value="verify_Admin_Module_Heading" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Verify_Dashboard.verify_SidePanel_List" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo_qa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demo_qa" />
+      <option name="MAIN_CLASS_NAME" value="demo_qa.Verify_Dashboard" />
+      <option name="METHOD_NAME" value="verify_SidePanel_List" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Maven.AutomationDemo [test]" />
       <item itemvalue="TestNG.Unnamed" />
+      <item itemvalue="TestNG.Verify_Dashboard" />
+      <item itemvalue="TestNG.Verify_Dashboard.verify_Admin_Module_Heading" />
+      <item itemvalue="TestNG.Verify_Dashboard.verify_SidePanel_List" />
+      <item itemvalue="TestNG.Login" />
       <item itemvalue="TestNG.C:/Users/anand_moontechnolabs/Desktop/Automation Demo QA/Automation Demo/TestRun.xml" />
-      <item itemvalue="TestNG.Login.Verify_Login_with_Invalid_credential" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/anand_moontechnolabs/Desktop/Automation Demo QA/Automation Demo/TestRun.xml" />
-        <item itemvalue="TestNG.Login.Verify_Login_with_Invalid_credential" />
+        <item itemvalue="TestNG.Verify_Dashboard" />
+        <item itemvalue="TestNG.Verify_Dashboard.verify_SidePanel_List" />
+        <item itemvalue="TestNG.Verify_Dashboard.verify_Admin_Module_Heading" />
+        <item itemvalue="TestNG.Login" />
       </list>
     </recent_temporary>
   </component>
@@ -179,5 +231,21 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Final Framework" />
     <option name="LAST_COMMIT_MESSAGE" value="Final Framework" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Com/Utility/TestUtil.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/demo_qa/Verify_Dashboard.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

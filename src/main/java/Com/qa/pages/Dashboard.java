@@ -11,7 +11,7 @@ import Com.Utility.TestUtil;
 import Com.qa.base.TestBase;
 
 public class Dashboard extends TestBase {
-
+	TestUtil util =  new TestUtil(driver);
 	public Dashboard() throws IOException {
 		PageFactory.initElements(driver, this);
 	}
@@ -31,7 +31,7 @@ public class Dashboard extends TestBase {
 	}
 
 	public boolean isAdminPageHeadingDisplayed() {
-		TestUtil.click(AdminModule, 20);
+		util.click(AdminModule, 20);
 		return adminModuleHeading.isDisplayed();
 	}
 

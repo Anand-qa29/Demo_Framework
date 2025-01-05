@@ -7,6 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
+import java.util.concurrent.TimeUnit;
 
 public class TestUtil {
 
@@ -19,10 +20,10 @@ public class TestUtil {
 		PageFactory.initElements(driver, this);
 	}
 
-	public static void click(WebElement element, int maxWaitTimeInSeconds) {
+	public void click(WebElement element, int maxWaitTimeInSeconds) {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(maxWaitTimeInSeconds));
 		try {
-			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(IMPLICIT_WAIT));
+			driver.manage().timeouts().implicitlyWait(IMPLICIT_WAIT, TimeUnit.SECONDS);
 			wait.until(ExpectedConditions.elementToBeClickable(element));
 			JavascriptExecutor js = (JavascriptExecutor) driver;
 			js.executeScript("arguments[0].scrollIntoView(true);", element);
@@ -35,10 +36,10 @@ public class TestUtil {
 		}
 	}
 
-	public static void sendKeys(WebElement element, String value, int maxWaitTimeInSeconds) {
+	public void sendKeys(WebElement element, String value, int maxWaitTimeInSeconds) {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(maxWaitTimeInSeconds));
 		try {
-			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(IMPLICIT_WAIT));
+			driver.manage().timeouts().implicitlyWait(IMPLICIT_WAIT, TimeUnit.SECONDS);
 			wait.until(ExpectedConditions.visibilityOf(element));
 			JavascriptExecutor js = (JavascriptExecutor) driver;
 			js.executeScript("arguments[0].scrollIntoView(true);", element);
