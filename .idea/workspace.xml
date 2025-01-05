@@ -5,17 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6adc525a-2589-4cd6-b2ff-5c0f099dd961" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestRun.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestRun.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Com/Extent/ER.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Com/Extent/ER.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Com/Extent/MyListeners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Com/Extent/MyListeners.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Com/Utility/TestUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Com/Utility/TestUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Com/qa/pages/Dashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Com/qa/pages/Dashboard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Com/qa/pages/login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Com/qa/pages/login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/demo_qa/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/demo_qa/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/Verify_Login_with_Invalid_credentialYJBiBVsFbX.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/Verify_LogoutIJhZLEnwMR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/Verify_user_can_log_in_with_valid_credentialaRafz9pLE6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/verify_Admin_Module_Heading3wX89xHWcE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/verify_Admin_Module_Heading5veXsB62Tw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/verify_Admin_Module_Heading87w2FKOgoZ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/verify_Admin_Module_HeadingCtzpLmWMuA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/verify_Admin_Module_HeadingG6lzKNhFv8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/verify_Admin_Module_HeadingP28eGwy7ME.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/verify_Admin_Module_HeadingXcZyrarkq6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/verify_Admin_Module_HeadingYuAj0OlnV6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/verify_Admin_Module_HeadingYxIhhWP8UV.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/verify_Admin_Module_HeadingaH1OVJnElQ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/verify_Admin_Module_HeadingcqCa1y7t4M.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/verify_Admin_Module_Headinght9GGYVy44.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/verify_Admin_Module_HeadingkTwsaYomBz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/verify_Admin_Module_HeadingkjQMCSIAkc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/verify_Admin_Module_Headingn8AXGNcDzN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/verify_Admin_Module_HeadingoMJBbYP85f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/verify_Admin_Module_HeadingqKDVnILtSU.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/verify_SidePanel_ListPqqG5xQ200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.bat" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +62,7 @@
     "last_opened_file_path": "C:/Users/anand_moontechnolabs/Desktop/Test Data/Automation Demo"
   }
 }]]></component>
-  <component name="RunManager" selected="Maven.AutomationDemo [test]">
+  <component name="RunManager" selected="TestNG.C:/Users/anand_moontechnolabs/Desktop/Automation Demo QA/Automation Demo/TestRun.xml">
     <configuration name="AutomationDemo [test]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -142,8 +153,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Login.Verify_Login_with_Invalid_credential" />
         <item itemvalue="TestNG.C:/Users/anand_moontechnolabs/Desktop/Automation Demo QA/Automation Demo/TestRun.xml" />
+        <item itemvalue="TestNG.Login.Verify_Login_with_Invalid_credential" />
       </list>
     </recent_temporary>
   </component>
