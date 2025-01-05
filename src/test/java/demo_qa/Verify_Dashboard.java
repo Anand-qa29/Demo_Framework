@@ -29,10 +29,7 @@ public class Verify_Dashboard extends TestBase {
 	@Test(priority = 2)
 	public void verify_Admin_Module_Heading() throws IOException {
 		Dashboard dp = new Dashboard();
-
 		Assert.assertTrue(dp.isAdminPageHeadingDisplayed(), "Admin Module Heading is not Displayed");
 		Assert.assertEquals(dp.getAdminModuleHeading(), "Admin", "Expected and Acrual is not match");
 	}
-
-
 }

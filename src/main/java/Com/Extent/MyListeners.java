@@ -6,15 +6,12 @@ import java.io.IOException;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
-
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
-
 import Com.qa.base.TestBase;
 
 public class MyListeners extends TestBase implements ITestListener {
-
 	public MyListeners() throws IOException {
 		super();
 	}
@@ -64,7 +61,6 @@ public class MyListeners extends TestBase implements ITestListener {
 		System.out.println("On Test Finished.");
 		extentreport.flush();
 
-		// Ensure the report directory exists
 		File reportDir = new File(System.getProperty("user.dir") + "/report");
 		if (!reportDir.exists()) {
 			if (reportDir.mkdirs()) {
@@ -74,7 +70,6 @@ public class MyListeners extends TestBase implements ITestListener {
 			}
 		}
 
-		// Open the report in the browser
 		String path = System.getProperty("user.dir") + "/report/index.html";
 		File URI = new File(path);
 		try {

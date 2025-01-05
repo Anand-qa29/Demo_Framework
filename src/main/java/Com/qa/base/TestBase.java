@@ -27,7 +27,8 @@ public class TestBase {
 
 	public TestBase() throws IOException {
 		props = new Properties();
-		props.load(new FileInputStream(System.getProperty("user.dir") + "/src/main/java/Com/qa/config/properties/config"));
+		props.load(
+				new FileInputStream(System.getProperty("user.dir") + "/src/main/java/Com/qa/config/properties/config"));
 	}
 
 	@Parameters("browser")
@@ -40,26 +41,26 @@ public class TestBase {
 			String browser = pro.getProperty("Browser");
 
 			switch (browser.toLowerCase()) {
-				case "chrome":
-					ChromeOptions chromeOptions = new ChromeOptions();
-					chromeOptions.addArguments("start-maximized", "disable-notifications", "--disable-popup-blocking");
-					driver = new ChromeDriver(chromeOptions);
-					driver.manage().window().maximize();
-					break;
-				case "msedge":
-					WebDriverManager.edgedriver().setup();
-					driver = new EdgeDriver();
-					driver.manage().window().maximize();
-					break;
-				case "ie":
-					WebDriverManager.iedriver().setup();
-					driver = new InternetExplorerDriver();
-					driver.manage().window().maximize();
-					break;
-				default:
-					WebDriverManager.chromedriver().setup();
-					driver = new ChromeDriver();
-					driver.manage().window().maximize();
+			case "chrome":
+				ChromeOptions chromeOptions = new ChromeOptions();
+				chromeOptions.addArguments("start-maximized", "disable-notifications", "--disable-popup-blocking");
+				driver = new ChromeDriver(chromeOptions);
+				driver.manage().window().maximize();
+				break;
+			case "msedge":
+				WebDriverManager.edgedriver().setup();
+				driver = new EdgeDriver();
+				driver.manage().window().maximize();
+				break;
+			case "ie":
+				WebDriverManager.iedriver().setup();
+				driver = new InternetExplorerDriver();
+				driver.manage().window().maximize();
+				break;
+			default:
+				WebDriverManager.chromedriver().setup();
+				driver = new ChromeDriver();
+				driver.manage().window().maximize();
 			}
 
 			driver.manage().timeouts().implicitlyWait(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
@@ -71,11 +72,12 @@ public class TestBase {
 	}
 
 	public String getScreenShotPath(String testCaseName) throws IOException {
-		TakesScreenshot ts= (TakesScreenshot) driver;
+		TakesScreenshot ts = (TakesScreenshot) driver;
 		File source = ts.getScreenshotAs(OutputType.FILE);
 		String Random = RandomString.make(10);
-		String destinationFile = System.getProperty("user.dir")+"\\Screenshots\\"+testCaseName+""+Random+".png";
-		FileUtils.copyFile(source,new File(destinationFile));
+		String destinationFile = System.getProperty("user.dir") + "\\Screenshots\\" + testCaseName + "" + Random
+				+ ".png";
+		FileUtils.copyFile(source, new File(destinationFile));
 		return destinationFile;
 	}
 

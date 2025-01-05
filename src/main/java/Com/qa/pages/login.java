@@ -3,17 +3,15 @@ package Com.qa.pages;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
-
 import Com.Utility.TestUtil;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
 import Com.qa.base.TestBase;
 
 public class login extends TestBase {
 	public static Properties props;
-	TestUtil util = new TestUtil(driver);
+
 	public login() throws IOException {
 		PageFactory.initElements(driver, this);
 		props = new Properties();
@@ -23,14 +21,9 @@ public class login extends TestBase {
 
 	public Dashboard successfulLogin() throws IOException {
 		log.info("User on Login page...");
-
-		// Using the generic sendKeys method from TestUtil
-		util.sendKeys(userNameFiled, props.getProperty("username"), 20);
-		util.sendKeys(passwordFiled, props.getProperty("password"), 20);
-
-		// Using the generic click method from TestUtil
-		util.click(loginButton, 20);
-
+		TestUtil.sendKeys(userNameFiled, props.getProperty("username"), 20);
+		TestUtil.sendKeys(passwordFiled, props.getProperty("password"), 20);
+		TestUtil.click(loginButton, 20);
 		return new Dashboard();
 	}
 
@@ -41,13 +34,9 @@ public class login extends TestBase {
 
 	public void InvalidLogin() {
 		log.info("User on Login page...");
-
-		// Using the generic sendKeys method from TestUtil for invalid login
-		util.sendKeys(userNameFiled, props.getProperty("invalidusername"), 20);
-		util.sendKeys(passwordFiled, props.getProperty("invalidpassword"), 20);
-
-		// Using the generic click method from TestUtil for the login button
-		util.click(loginButton, 20);
+		TestUtil.sendKeys(userNameFiled, props.getProperty("invalidusername"), 20);
+		TestUtil.sendKeys(passwordFiled, props.getProperty("invalidpassword"), 20);
+		TestUtil.click(loginButton, 20);
 	}
 
 	public boolean isErrorMessageDisplayed() {
@@ -60,10 +49,8 @@ public class login extends TestBase {
 
 	public void Logout() {
 		log.info("User on Dashboard page...");
-
-		// Using the generic click method from TestUtil for profile dropdown and logout
-		util.click(profilDropdown, 20);
-		util.click(Logout, 20);
+		TestUtil.click(profilDropdown, 20);
+		TestUtil.click(Logout, 20);
 	}
 
 	public boolean isLoginPageHeadingDisplayed() {
